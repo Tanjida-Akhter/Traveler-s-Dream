@@ -93,6 +93,8 @@ nav .section-title {
 
 .inputs-and-button {
   padding: 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .inputs-and-button input,
