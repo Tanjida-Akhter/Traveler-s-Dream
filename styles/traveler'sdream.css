@@ -38,7 +38,7 @@ nav .section-title {
 
 .nav-right-part > ul {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .nav-right-part li {
@@ -72,6 +72,7 @@ nav .section-title {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .banner-title {
@@ -134,6 +135,43 @@ select {
 nav .nav-right-part-mobile {
   display: none;
 }
+
+.popular-tours {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+  margin-top: 100px;
+}
+
+.popular-tours-title {
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.popular-tours-content {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+.btn-primary {
+  height: 52px;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  width: 160px;
+  border: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+
 
 @media screen and (max-width: 600px) {
   body {
