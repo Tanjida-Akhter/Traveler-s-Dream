@@ -162,7 +162,8 @@ nav .nav-right-part-mobile {
   line-height: 30px;
 }
 
-.btn-primary {
+.btn-primary,
+.package-button {
   height: 52px;
   border-radius: 8px;
   background: rgb(255, 84, 0);
@@ -197,7 +198,8 @@ nav .nav-right-part-mobile {
   margin-left: 30%;
 }
 
-.box-container h3, .deals-list h3 {
+.box-container h3,
+.deals-list h3 {
   color: rgb(19, 19, 24);
   font-size: 24px;
   font-weight: 800;
@@ -205,7 +207,8 @@ nav .nav-right-part-mobile {
   letter-spacing: 0%;
 }
 
-.box-container p, .deals-list p {
+.box-container p,
+.deals-list p {
   color: rgb(90, 90, 93);
   font-size: 16px;
   font-weight: 400;
@@ -270,20 +273,24 @@ nav .nav-right-part-mobile {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .deal-box-one,
 .deal-box-two,
 .deal-box-three {
   width: 579px;
-  height: 389px;
+  height: 350px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 16px;
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.8);
 }
 
+.package-button {
+  margin-left: 42%;
+  margin-top: 50px;
+}
 . @media screen and (max-width: 600px) {
   body {
     width: 90%;
