@@ -142,24 +142,26 @@ nav .nav-right-part-mobile {
   justify-content: space-evenly;
   gap: 70px;
   margin-top: 100px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.popular-tours-right img {
+  width: 100%;
 }
 
 .popular-tours-left,
 .popular-tours-right {
-  width: 50%;
+  width: 45%;
 }
 
 .popular-tours-title {
   color: rgb(19, 19, 24);
   font-size: 40px;
   font-weight: 800;
-}
-
-.popular-tours {
-  color: rgba(19, 19, 24, 0.7);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
+  margin-top: 0;
 }
 
 .btn-primary,
@@ -176,7 +178,60 @@ nav .nav-right-part-mobile {
   margin-top: 20px;
 }
 
-.why-choose-us-title,
+.choose-your-destination,
+.why-choose-us,
+.deal-and-discount {
+  margin-top: 100px;
+}
+
+.section-title {
+  color: rgb(19, 19, 24);
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.section-sub1-title {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  width: 60%;
+  margin: 24px auto auto auto;
+}
+
+.choose-your-destination-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 45px;
+  justify-content: space-around;
+}
+
+.choose-your-destination-gallery > div {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 35px;
+  text-align: center;
+  height: 300px;
+  position: relative;
+}
+
+.text-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .why-choose-us-title,
+.section-title why-choose-us-title
 .deal-and-discount h3 {
   color: rgb(19, 19, 24);
   font-size: 40px;
@@ -184,19 +239,18 @@ nav .nav-right-part-mobile {
   line-height: 25px;
   text-align: center;
   margin-top: 100px;
-}
+} */
 
-.why-choose-us-content,
+/* .why-choose-us-content,
 .deal-and-discount p {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
   width: 40%;
   margin-left: 30%;
-}
+} */
 
 .box-container h3,
 .deals-list h3 {
@@ -204,7 +258,6 @@ nav .nav-right-part-mobile {
   font-size: 24px;
   font-weight: 800;
   line-height: 30px;
-  letter-spacing: 0%;
 }
 
 .box-container p,
@@ -220,9 +273,7 @@ nav .nav-right-part-mobile {
 .box-1,
 .box-2,
 .box-3 {
-  width: 550px;
-  height: 250px;
-  padding: 40px 120px 35px 40px;
+  padding: 32px 55px 32px 32px;
 }
 
 .box-1 {
@@ -230,6 +281,7 @@ nav .nav-right-part-mobile {
   border-radius: 16px;
   background: rgba(251, 181, 99, 0.05);
   margin-top: 25px;
+  width: 50%;
 }
 
 .box-2 {
@@ -237,6 +289,7 @@ nav .nav-right-part-mobile {
   border-radius: 16px;
   background: rgba(41, 206, 246, 0.05);
   margin-top: 25px;
+  width: 50%;
 }
 
 .box-3 {
@@ -245,6 +298,7 @@ nav .nav-right-part-mobile {
   background: rgba(233, 68, 68, 0.05);
   margin-left: 25%;
   margin-top: 50px;
+  width: 50%;
 }
 
 .upper-two-box {
@@ -252,16 +306,32 @@ nav .nav-right-part-mobile {
   gap: 50px;
 }
 
+.infos span i {
+  padding: 5px;
+}
+
+.deals-list {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
 .first-deal {
   background-image: url(../Images/Group39.png);
+  flex-flow: row-reverse;
+  justify-content: right;
 }
 
 .second-deal {
   background-image: url(../Images/Group40.png);
+  flex-flow: row-reverse;
+  justify-content: left;
 }
 
 .third-deal {
   background-image: url(../Images/Group39.png);
+  flex-flow: row-reverse;
+  justify-content: right;
 }
 
 .first-deal,
@@ -274,17 +344,20 @@ nav .nav-right-part-mobile {
   background-position: center;
   background-size: cover;
   margin-top: 2rem;
+  display: flex;
 }
 
 .deal-box-one,
 .deal-box-two,
 .deal-box-three {
-  width: 579px;
-  height: 350px;
+  width: 40%;
+  margin: 56px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 16px;
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.8);
+  padding: 50px 77px 50px 50px;
+
 }
 
 .package-button {
