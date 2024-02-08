@@ -551,6 +551,11 @@ footer p {
   .perfect-place-title br {
     display: none;
   }
+  .choose-your-destination img {
+    height: 250px;
+    width: 350px;
+  }
+
   .choose-your-destination,
   .why-choose-us,
   .deal-and-discount,
